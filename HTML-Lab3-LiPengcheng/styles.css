@@ -1,0 +1,71 @@
+body 
+{
+  font-family: 'Times New Roman', Times, serif; 
+  font-style: normal;
+  color: rgb(95, 95, 95);
+}
+
+h1, h2, h3 
+{
+  font-family: 'Georgia', serif; 
+  text-transform: uppercase;
+  font-size: 2em; 
+  color: black;
+}
+
+a:link { color: blue; }      
+a:visited { color: purple; } 
+a:hover { color: orange; }   
+a:active { color: red; }     
+
+code {
+  background-color: #eee;
+  padding: 0.2em 0.4em;
+  border-radius: 4px;
+  font-family: monospace;
+}
+
+ul {
+  padding-left: 1.5em;
+}
+
+.wrapper
+{
+    margin-top: 1em;
+  padding: 1em;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+}
+
+#footer {
+  margin-top: 1em;
+  padding: 1em;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  /*border-top: solid rgb(95, 95, 95);*/
+}
+
+input[type="email"] {
+  padding: 0.5em;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  width: 100%;
+  max-width: 300px;
+  margin-bottom: 1em;
+}
+
+button[type="submit"] {
+  background-color: #333;
+  color: white;
+  padding: 0.6em 1.2em;
+  border: none;
+  border-radius: 5px;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+button[type="submit"]:hover {
+  background-color: #555;
+}
+
