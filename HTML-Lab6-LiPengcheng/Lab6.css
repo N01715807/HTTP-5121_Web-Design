@@ -2,7 +2,7 @@
 
 body {
   margin: 0;
-  background: #fff;
+  background: #f0f0f0;
   font:normal 1em/1.2 'Poppins', Arial, sans-serif;
   color: #222;
 }
@@ -19,7 +19,7 @@ header {
   background-color: #ffffff;
   padding: 0px 0px 0px 0px;
   height: 80px;
-  box-shadow: 0px 10px 20px rgba(0,0,0,0.40);
+  box-shadow: 0px 10px 20px 10px rgba(0, 0, 0, 0.25);
 }
 
 .logo {
@@ -73,23 +73,23 @@ nav a:hover {
 .hero-content h1 {
   font-size: 64px;
   font-weight: 700;
-  line-height: 1.1;
+  line-height: 1.2;
+  letter-spacing: 0px;
   margin-bottom: 28px;
   text-shadow: 0 4px 4px rgba(0,0,0,0.40);
 }
 
 .button {
   display: inline-block;
-  padding: 18px 42px;
-  font-size: 1.3rem;
+  padding: 17px 62px;
+  font-size: 20px;
+  letter-spacing: 0px;
   border-radius: 32px;
-  border: 3px solid #a259e6;
+  border: 5px solid #a259e6;
   background: #fff;
   color: #a259e6;
   font-weight: 700;
   text-decoration: none;
-  box-shadow: 0 2px 8px rgba(162, 89, 230, 0.10);
-  transition: background 0.2s, color 0.2s;
 }
 
 .button:hover {
