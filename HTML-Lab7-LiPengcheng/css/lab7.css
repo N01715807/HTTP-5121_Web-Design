@@ -100,6 +100,13 @@ a:hover {
   color:var(--main-color);
 }
 
+img.dog {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+
 /* -- 4a. Articles */
 .articles-container {
   display:flex;
@@ -140,3 +147,33 @@ a:hover {
 }
 
 /* 5. MEDIA QUERIES */
+
+/* ---------- 768 px ---------- */
+@media (max-width: 768px) {
+  
+  .articles-container .article {
+    flex: 1 0 50%;
+  }
+  .articles-container .article:nth-child(3) {
+    flex: 1 0 100%;
+  }
+
+  .gallery-container .item {
+    flex: 0 0 50%;
+  }
+}
+
+/* ---------- 480 px ---------- */
+@media (max-width: 480px) {
+
+  #main-menu ul {
+    flex-direction: column;
+    row-gap: 1em;
+    align-items: flex-start;
+  }
+
+  .articles-container .article {
+    flex: 1 0 100%;
+  }
+  
+}
