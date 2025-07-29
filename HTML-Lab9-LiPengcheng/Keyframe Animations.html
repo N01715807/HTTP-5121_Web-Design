@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Sunrise Sunset Animation</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="sky">
+    <div class="sun"></div>
+  </div>
+  <button id="toggleBtn">Pause</button>
+
+  <script>
+    const sun = document.querySelector('.sun');
+    const sky = document.querySelector('.sky');
+    const button = document.getElementById('toggleBtn');
+
+    let isPaused = false;
+
+    button.addEventListener('click', () => {
+      isPaused = !isPaused;
+      sun.style.animationPlayState = isPaused ? 'paused' : 'running';
+      sky.style.animationPlayState = isPaused ? 'paused' : 'running';
+      button.textContent = isPaused ? 'Play' : 'Pause';
+    });
+  </script>
+</body>
+</html>
